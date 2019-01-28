@@ -6,13 +6,11 @@ class Background extends Component {
 
     render() {
         return (
-          <div className="container-fluid">
             <div className="parallax">
-              <div id="stars1"></div>
-              <div id="stars2"></div>
-              <div id="stars3"></div>
+              <div id="#stars1"></div>
+              <div id="#stars2"></div>
+              <div id="#stars3"></div>
             </div>
-          </div>
         )
     }
 }
