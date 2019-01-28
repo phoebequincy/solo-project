@@ -12,7 +12,7 @@ class Welcome extends Component {
               software developer | montessori teacher | mom
             <p></p>
 
-              <em>I really like to build beautiful and useful applications.</em>
+              <em>I really like building beautiful and useful applications.</em>
           </div>
         )
     }

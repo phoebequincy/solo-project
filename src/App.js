@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import './components/Background';
-import './components/Projects';
 import './components/Navbar';
 import './components/Welcome';
 
@@ -22,7 +21,7 @@ class App extends Component {
     return (
       <div className="App container-fluid">
         <div>
-          
+
         </div>
       </div>
     );
