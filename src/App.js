@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import './components/Background';
-import './components/Navbar';
-import './components/Welcome';
+import './App.scss';
+import Background from './components/Background';
+import Navbar from './components/Navbar';
+import Welcome from './components/Welcome';
 
 const API = 'http://localhost:3000/'
 
@@ -14,21 +14,18 @@ class App extends Component {
 
   }
 }
-componentWillMount(){
-  this.setState
-}
+// componentWillMount(){
+//   this.setState
+// }
 
 
   render() {
     return (
       <div className="App">
-        <Background
-          parallax={this.state.background}/>
+      <div className="container">
 
-        <Navbar />
 
-        <Welcome />
-
+      </div>
       </div>
 
     );
