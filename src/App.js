@@ -7,18 +7,27 @@ import './components/Welcome';
 const API = 'http://localhost:3000/'
 
 class App extends Component {
-
-  state = {
+  constructor(){
+    super();
+    this.state = {
+      background: 
 
   }
 
-
+componentWillMount(){
+  this.setState
+}
 
 
   render() {
     return (
       <div className="App">
-  
+        <Background
+          parallax={this.state.background}/>
+
+        <Navbar />
+
+        <Welcome />
 
       </div>
 
