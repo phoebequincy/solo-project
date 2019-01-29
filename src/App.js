@@ -10,10 +10,10 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      background: 
+      background: []
 
   }
-
+}
 componentWillMount(){
   this.setState
 }
