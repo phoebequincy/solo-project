@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import './App.scss';
 import Background from './components/Background';
 import Navbar from './components/Navbar';
+import Welcome from './components/Welcome';
+import Projects from './components/Projects';
 
 
-const API = 'http://localhost:3000/'
+
 
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      
+
 
   }
 }
@@ -18,12 +19,29 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div className="container">
+        <div className="container-fluid">
+          <div>
+            <Background
 
+            />
+          </div>
+          <div>
+            <Navbar
 
+            />
+          </div>
+          <div>
+            <Welcome
+
+            />
+          </div>
+          <div>
+            <Projects
+
+            />
+          </div>
+        </div>
       </div>
-      </div>
-
     );
   }
 }
