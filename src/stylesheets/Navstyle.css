@@ -1,0 +1,9 @@
+.navbar {
+  font-family: 'Open Sans';
+}
+nav.navbar.navbar-light.bg-faded{
+  background-color: #E8F8F5;
+}
+#jumbo {
+  padding-top: 2em;
+}

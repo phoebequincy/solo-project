@@ -1,32 +1,56 @@
-import React, { Component } from 'react';
+import React from 'react';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavLink as NavbarLink,
+    NavItem }
 
-class Navbar extends Component {
+from 'reactstrap';
+import '../stylesheets/Navstyle.css';
 
+export default class NavBar extends React.Component {
+  constructor(props) {
+    super(props);
 
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true
+    };
+  }
 
-    render() {
-        return (
-          <nav>
-            <div className="nav-wrapper teal lighten-4">
-              <a href="/" className="brand-logo main-font black-text m-l"></a>
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
+  render() {
+    return (
+      <div>
+        <Navbar color="faded" light>
+          <NavbarBrand href="/" className="mr-auto"></NavbarBrand>
+          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+          <Collapse isOpen={!this.state.collapsed} navbar>
+            <Nav navbar>
 
-              <a href="index.html" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+              <NavItem>
+                <NavbarLink href="/">Home</NavbarLink>
+              </NavItem>
 
-              <ul className="right hide-on-med-and-down">
-                <li><a className="grey-text text-darken-5" href="#">About</a></li>
-                <li><a className="grey-text text-darken-5" href="#">Projects</a></li>
-                    </ul>
+              <NavItem>
+                <NavbarLink href="/About">About</NavbarLink>
+              </NavItem>
 
-                    <div className="mobilenav">
-                      <ul className="sidenav" id="mobile-demo">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                      </ul>
-              </div>
-            </div>
-          </nav>
-        )
-    }
+              <NavItem>
+                <NavbarLink href="/Projects">Projects</NavbarLink>
+              </NavItem>
+
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    );
+  }
 }
-
-export default Navbar;
