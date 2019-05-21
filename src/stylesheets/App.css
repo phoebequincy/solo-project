@@ -83,7 +83,8 @@ body {
   }
 }
 
-ul.bullets {
-  color: #095660
-
+img {
+  padding-left: 0;
+  padding-top: 0;
+  align-self: center;
 }

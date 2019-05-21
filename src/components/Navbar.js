@@ -44,6 +44,10 @@ export default class NavBar extends React.Component {
               </NavItem>
 
               <NavItem>
+                <NavbarLink href="/Resume">Resume</NavbarLink>
+              </NavItem>
+
+              <NavItem>
                 <NavbarLink href="/Projects">Projects</NavbarLink>
               </NavItem>
 

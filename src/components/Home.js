@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { Row, Col, Container } from 'reactstrap';
-import '../stylesheets/Homestyle.css';
+import profile from '../assets/profile.png'
+
 
 class Home extends Component {
-
-
 
     render() {
         return (
@@ -16,8 +15,14 @@ class Home extends Component {
                   software developer | technical evangelist
                 <p></p>
                   <div className="animated slideInLeft delay-2s">
-                    <em>I love building beautiful and useful applications in JavaScript and sharing my enthusiasm for technology!</em>
+                    <em>I love building useful applications that help people connect and sharing my enthusiasm for technology!</em>
                   </div>
+                  <p className="lead"></p>
+                  <hr className="my-2" />
+                  <p className="lead"></p>
+                    <div>
+                    <img src={profile} alt=""/>
+                    </div>
               </Col>
             </Row>
           </Container>
