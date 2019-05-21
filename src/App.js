@@ -4,9 +4,7 @@ import About from './components/About';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Projects from './components/Projects';
-
-
-
+import Resume from './components/Resume';
 
 class App extends Component {
 
@@ -15,10 +13,10 @@ class App extends Component {
     return (
       <div>
         <Router>
-        <NavBar />
-          <Route path="/"
-            exact component={Home}
-          />
+          <NavBar />
+            <Route path="/"
+              exact component={Home}
+            />
 
           <Route path="/About"
             component={()=>

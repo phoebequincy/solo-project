@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/Projectstyle.css';
 import {
   Col,
   Row,
@@ -12,12 +13,13 @@ import {
  }
 from 'reactstrap';
 
+
 const Projects = (props) => {
   return (
   <Container>
     <Row>
       <p>
-        <h1>Projects</h1>
+        <h1 className="display-3">My Projects</h1>
       </p>
     </Row>
 
@@ -27,7 +29,7 @@ const Projects = (props) => {
         <CardBody>
           <CardTitle>Funny Cookie</CardTitle>
           <CardImg width="20%" src="./funnycookie.png" alt="" />
-          <CardText>Get a random funny fortune.</CardText>
+          <CardText>Provides a daily hit of humor through random, funny fortunes.</CardText>
           <CardLink href="http://funnycookie.surge.sh/">Website</CardLink>
           <CardLink href="https://github.com/phoebequincy/funnycookie">GitHub</CardLink>
         </CardBody>
@@ -51,7 +53,7 @@ const Projects = (props) => {
         <CardBody>
           <CardTitle>Acorns</CardTitle>
           <CardImg width="20%" src="./acorns.png" alt="" />
-          <CardText>Good things for dark times.</CardText>
+          <CardText>A store-house for inspiration and wisdom when you are struggling to get through difficult times.</CardText>
           <CardLink href="http://theacornstash.surge.sh/">Website</CardLink>
           <CardLink href="https://github.com/phoebequincy/acorns">GitHub</CardLink>
         </CardBody>
