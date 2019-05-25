@@ -9,3 +9,9 @@
   <li> - I’m collaborative, hard-working and have a good sense of humor</li>
   <li> - I believe in glass half-full, learning from errors, grit and carrying on</li>
 </ul>
+
+.button {
+  i {
+    @include fa-icon('star');
+  }
+}

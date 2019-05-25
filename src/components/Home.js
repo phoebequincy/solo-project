@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Button } from 'reactstrap';
 import '../stylesheets/Homestyle.css';
+import { Link } from 'react-router-dom';
 
 
 class Home extends Component {
@@ -25,29 +26,37 @@ class Home extends Component {
             </Row>
             <Row className="iconbar">
               <Col xs="3">
-                <Button className="a1" color="link">
-                 <a href="#"></a>
+              <Link to="/About">
+                <Button className="about" color="link">
+                 <i class="fal fa-user-astronaut"></i>
                 </Button>
+              </Link>
               </Col>
 
               <Col xs="3">
-                <Button className="a2" color="link">
-                 <a href="#"></a>
+              <Link to="/Resume">
+                <Button className="resume" color="link">
+                 <i class="fas fa-file"></i>
                 </Button>
+              </Link>
               </Col>
 
               <Col xs="3">
-                <Button className="a3" color="link">
-                 <a href="#"></a>
+              <Link to="Projects">
+                <Button className="projects" color="link">
+                 <i class="fal fa-suitcase"></i>
                 </Button>
+              </Link>
               </Col>
 
               <Col xs="3">
-                <Button className="a4" color="link">
-                 <a href="#"></a>
+              <Link to="/Contact">
+                <Button className="contact" color="link">
+                 <i class="fas fa-comments-alt"></i>
                 </Button>
+              </Link>
               </Col>
-              
+
             </Row>
           </Container>
         )

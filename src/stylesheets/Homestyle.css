@@ -3,77 +3,79 @@ iconbar{
   padding: 0;
   font-family: "Font Awesome 5 Pro"
 }
-.a1{
+.about{
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.a1 a{
+.about i{
   width: 70px;
   height: 70px;
   display: block;
   color:white;
-  background: #d2fba4;
+  background: #bfdc80;
+  text-decoration: none;
   overflow: hidden;
   text-align: center;
-  text-decoration: none;
-  font-size: 40px;
+  font-size: 45px;
   border-radius: 50%;
 }
-.a1 a:before{
+.about i:before{
   content: '\f4fb';
   display: block;
   margin: 13px 0;
   transition: all 0.5s;
 }
-.a1 a:hover:before{
+.about i:hover:before{
   margin-top: -44px;
 }
-.a1 a:after{
+.about i:after{
   content: '\f4fb';
   display: block;
   transition: all 0.5s;
 }
-.a2{
+
+.resume{
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.a2 a{
+.resume i{
   width: 70px;
   height: 70px;
   display: block;
   color:white;
-  background: #9ac026;
+  background: #fdde59;
   overflow: hidden;
   text-align: center;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 45px;
   border-radius: 50%;
 }
-.a2 a:before{
+.resume i:before{
   content: '\f15b';
   display: block;
   margin: 13px 0;
   transition: all 0.5s;
 }
-.a2 a:hover:before{
+.resume i:hover:before{
   margin-top: -44px;
 }
-.a2 a:after{
+.resume i:after{
   content: '\f15b';
   display: block;
   transition: all 0.5s;
 }
-.a3{
+.projects{
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
-.a3 a{
+.projects i{
   width: 70px;
   height: 70px;
   display: block;
@@ -82,51 +84,50 @@ iconbar{
   overflow: hidden;
   text-align: center;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 45px;
   border-radius: 50%;
 }
-.a3 a:before{
+.projects i:before{
   content: '\f0f2';
   display: block;
   margin: 13px 0;
   transition: all 0.5s;
 }
-.a3 a:hover:before{
+.projects i:hover:before{
   margin-top: -44px;
 }
-.a3 a:after{
+.projects i:after{
   content: '\f0f2';
   display: block;
   transition: all 0.5s;
 }
-.a4{
+.contact{
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.a4 a{
+.contact i{
   width: 70px;
   height: 70px;
   display: block;
   color:white;
-  background: #ffcbc4;
+  background: #0dbab1;
   overflow: hidden;
   text-align: center;
-  text-decoration: none;
-  font-size: 40px;
+  font-size: 45px;
   border-radius: 50%;
 }
-.a4 a:before{
+.contact i:before{
   content: '\f4b6';
   display: block;
   margin: 13px 0;
   transition: all 0.5s;
 }
-.a4 a:hover:before{
+.contact i:hover:before{
   margin-top: -44px;
 }
-.a4 a:after{
+.contact i:after{
   content: '\f4b6';
   display: block;
   transition: all 0.5s;
