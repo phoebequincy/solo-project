@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Container } from 'reactstrap';
+import { Row, Col, Container, Button } from 'reactstrap';
 import '../stylesheets/Homestyle.css';
 
 
@@ -24,11 +24,31 @@ class Home extends Component {
               </Col>
             </Row>
             <Row className="iconbar">
-              <div className="a1">
-              <a href="#"></a>
-              </div>
-            </Row>
+              <Col xs="3">
+                <Button className="a1" color="link">
+                 <a href="#"></a>
+                </Button>
+              </Col>
 
+              <Col xs="3">
+                <Button className="a2" color="link">
+                 <a href="#"></a>
+                </Button>
+              </Col>
+
+              <Col xs="3">
+                <Button className="a3" color="link">
+                 <a href="#"></a>
+                </Button>
+              </Col>
+
+              <Col xs="3">
+                <Button className="a4" color="link">
+                 <a href="#"></a>
+                </Button>
+              </Col>
+              
+            </Row>
           </Container>
         )
     }

@@ -1,10 +1,10 @@
 iconbar{
   margin: 0;
   padding: 0;
-  font-family: 'Ionicons';
+  font-family: "Font Awesome 5 Pro"
 }
 .a1{
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -14,7 +14,7 @@ iconbar{
   height: 70px;
   display: block;
   color:white;
-  background: #45B39D;
+  background: #d2fba4;
   overflow: hidden;
   text-align: center;
   text-decoration: none;
@@ -22,7 +22,7 @@ iconbar{
   border-radius: 50%;
 }
 .a1 a:before{
-  content: '\f2a2';
+  content: '\f4fb';
   display: block;
   margin: 13px 0;
   transition: all 0.5s;
@@ -31,7 +31,103 @@ iconbar{
   margin-top: -44px;
 }
 .a1 a:after{
-  content: '\f2a2';
+  content: '\f4fb';
+  display: block;
+  transition: all 0.5s;
+}
+.a2{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.a2 a{
+  width: 70px;
+  height: 70px;
+  display: block;
+  color:white;
+  background: #9ac026;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 50%;
+}
+.a2 a:before{
+  content: '\f15b';
+  display: block;
+  margin: 13px 0;
+  transition: all 0.5s;
+}
+.a2 a:hover:before{
+  margin-top: -44px;
+}
+.a2 a:after{
+  content: '\f15b';
+  display: block;
+  transition: all 0.5s;
+}
+.a3{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.a3 a{
+  width: 70px;
+  height: 70px;
+  display: block;
+  color:white;
+  background: #ff6260;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 50%;
+}
+.a3 a:before{
+  content: '\f0f2';
+  display: block;
+  margin: 13px 0;
+  transition: all 0.5s;
+}
+.a3 a:hover:before{
+  margin-top: -44px;
+}
+.a3 a:after{
+  content: '\f0f2';
+  display: block;
+  transition: all 0.5s;
+}
+.a4{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.a4 a{
+  width: 70px;
+  height: 70px;
+  display: block;
+  color:white;
+  background: #ffcbc4;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 50%;
+}
+.a4 a:before{
+  content: '\f4b6';
+  display: block;
+  margin: 13px 0;
+  transition: all 0.5s;
+}
+.a4 a:hover:before{
+  margin-top: -44px;
+}
+.a4 a:after{
+  content: '\f4b6';
   display: block;
   transition: all 0.5s;
 }
