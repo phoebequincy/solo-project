@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Container } from 'reactstrap';
-import profile from '../assets/profile.png'
+import '../stylesheets/Homestyle.css';
 
 
 class Home extends Component {
@@ -15,16 +15,20 @@ class Home extends Component {
                   software developer | technical evangelist
                 <p></p>
                   <div className="animated slideInLeft delay-2s">
-                    <em>I love building useful applications that help people connect and sharing my enthusiasm for technology!</em>
+                    <em>I love building beautiful and useful applications that connect people, and sharing my enthusiasm for technology!</em>
                   </div>
                   <p className="lead"></p>
                   <hr className="my-2" />
                   <p className="lead"></p>
-                    <div>
-                    <img src={profile} alt=""/>
-                    </div>
+
               </Col>
             </Row>
+            <Row className="iconbar">
+              <div className="a1">
+              <a href="#"></a>
+              </div>
+            </Row>
+
           </Container>
         )
     }

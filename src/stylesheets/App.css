@@ -82,9 +82,3 @@ body {
     transform-origin: 100% 50%;
   }
 }
-
-img {
-  padding-left: 0;
-  padding-top: 0;
-  align-self: center;
-}
