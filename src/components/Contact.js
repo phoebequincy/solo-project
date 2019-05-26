@@ -2,10 +2,13 @@ import React from 'react';
 import { Container, Col } from 'reactstrap';
 import '../stylesheets/App.css';
 import Emoji from 'a11y-react-emoji'
-import MessageList from './components/MessageList.js'
+import MessageList from './MessageList'
 
 
 const Contact = () => {
+
+
+
   return (
     <Container id="jumbo">
       <Col>
@@ -26,12 +29,6 @@ const Contact = () => {
             <Emoji symbol=" 👋 "label="waving-hand"/>Twilio!
             <img className="red" src='./twilio-mark-red.png'
               alt=""/>
-
-        <div className="message-box">
-            <MessageList
-              messagelist={this.props.messages}
-            />
-        </div>
     </Container>
 
     )

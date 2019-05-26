@@ -13,7 +13,6 @@ const Resume = () => {
             <h4>For published applications, go to <Link to="/Projects">
              <Button outline color="secondary">Projects</Button>
             </Link></h4>
-
              <p className="lead"></p>
               <div>
                 <img src={resume} alt=""/>
