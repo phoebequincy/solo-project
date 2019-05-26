@@ -2,13 +2,8 @@ import React from 'react';
 import { Container, Col } from 'reactstrap';
 import '../stylesheets/App.css';
 import Emoji from 'a11y-react-emoji'
-import MessageList from './MessageList'
-
 
 const Contact = () => {
-
-
-
   return (
     <Container id="jumbo">
       <Col>
@@ -17,20 +12,17 @@ const Contact = () => {
           <hr className="my-2" />
             <p className="lead"></p>
       </Col>
-      There are several ways you can connect with me . . .
-      <p></p>
-        <li>Mobile | 303.817.3243</li>
+        <p></p>
+          <ul className="list-unstyled">
+            <li>Mobile | 303.817.3243</li>
 
-        <li>Email | <a href="mailto:phoebequincy@gmail.com" >phoebequincy@gmail.com</a></li>
+            <li>Email | <a href="mailto:phoebequincy@gmail.com" >phoebequincy@gmail.com</a></li>
 
-        <li>Visit my <a href="https://www.linkedin.com/in/phoebe-quincy/" target="blank">LinkedIn</a></li>
-      <p></p>
-      Or . . . Use in-app sms messaging, Thanks
-            <Emoji symbol=" 👋 "label="waving-hand"/>Twilio!
-            <img className="red" src='./twilio-mark-red.png'
-              alt=""/>
+            <li>Visit my <a href="https://www.linkedin.com/in/phoebe-quincy/" target="blank">LinkedIn</a></li>
+          </ul>
+        <p></p>
+      <h3>Thanks<Emoji symbol=" 👋 "label="waving-hand"/>for visiting!</h3>
     </Container>
-
     )
   }
 
