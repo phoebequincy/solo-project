@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Col, Button } from 'reactstrap';
 import '../stylesheets/App.css';
 import { Link } from 'react-router-dom';
 
@@ -17,25 +17,20 @@ const About = () => {
           <p className="lead"></p>
             <hr className="my-2" />
               <p className="lead"></p>
+
+              <ul className="list-unstyled">
+                <li> - I'm naturally curious and enjoy the learning curve </li>
+                <li> - I like to travel, camp and sea kayak</li>
+                <li> - I love to design and make things: websites, apps, decor, renovation, arts and crafts</li>
+                <li> - I’m collaborative, hard-working and have a good sense of humor</li>
+                <li> - I believe in glass half-full, learning from errors, grit and carrying on</li>
+              </ul>
+
+            <h3>View my resume for details.</h3>
+              <Link to="/Resume">
+               <Button outline color="secondary">Resume</Button>
+              </Link>
       </Col>
-        <Row>
-          <Col xs="6">
-            <ul className="list-unstyled">
-              <li> - I'm naturally curious and enjoy the learning curve </li>
-              <li> - I like to travel, camp and sea kayak</li>
-              <li> - I love to design and make things: websites, apps, decor, renovation, arts and crafts</li>
-              <li> - I’m collaborative, hard-working and have a good sense of humor</li>
-              <li> - I believe in glass half-full, learning from errors, grit and carrying on</li>
-            </ul>
-          </Col>
-          <Col xs="6" className="text-left">
-            <Link to="/Resume">
-              <Button className="resume" color="link">
-               <i className="fas fa-file"></i>
-              </Button>
-            </Link>
-          </Col>
-      </Row>
     </Container>
   )
 }

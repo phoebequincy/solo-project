@@ -28,7 +28,7 @@ class Home extends Component {
               <Col xs="3">
               <Link to="/About">
                 <Button className="about" color="link">
-                 <i class="fal fa-user-astronaut"></i>
+                 <i className="fal fa-user-astronaut"></i>
                 </Button>
               </Link>
               </Col>
@@ -36,7 +36,7 @@ class Home extends Component {
               <Col xs="3">
               <Link to="/Resume">
                 <Button className="resume" color="link">
-                 <i class="fas fa-file"></i>
+                 <i className="fas fa-file"></i>
                 </Button>
               </Link>
               </Col>
@@ -44,7 +44,7 @@ class Home extends Component {
               <Col xs="3">
               <Link to="Projects">
                 <Button className="projects" color="link">
-                 <i class="fal fa-suitcase"></i>
+                 <i className="fal fa-suitcase"></i>
                 </Button>
               </Link>
               </Col>
@@ -52,7 +52,7 @@ class Home extends Component {
               <Col xs="3">
               <Link to="/Contact">
                 <Button className="contact" color="link">
-                 <i class="fas fa-comments-alt"></i>
+                 <i className="fas fa-comments-alt"></i>
                 </Button>
               </Link>
               </Col>

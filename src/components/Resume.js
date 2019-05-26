@@ -8,20 +8,16 @@ const Resume = () => {
   return (
     <Container id="jumbo">
       <Row>
-        <Col sm="8">
+        <Col>
           <h1 className="display-3" id="about">My Resume </h1>
-            <p className="lead"></p>
-              <div>
-              <img src={resume} alt=""/>
-              </div>
-        </Col>
+            <h4>For published applications, go to <Link to="/Projects">
+             <Button outline color="secondary">Projects</Button>
+            </Link></h4>
 
-        <Col sm="4 text-center">
-          <Link to="Projects">
-            <Button className="projects" color="link" label="Check out my projects!">
-             <i class="fal fa-suitcase"></i>
-            </Button>
-          </Link>
+             <p className="lead"></p>
+              <div>
+                <img src={resume} alt=""/>
+              </div>
         </Col>
       </Row>
     </Container>

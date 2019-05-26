@@ -106,6 +106,7 @@ iconbar{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-decoration: none !important;
 }
 .contact i{
   width: 70px;
@@ -115,6 +116,7 @@ iconbar{
   background: #0dbab1;
   overflow: hidden;
   text-align: center;
+
   font-size: 45px;
   border-radius: 50%;
 }

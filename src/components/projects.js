@@ -4,6 +4,7 @@ import {
   Col,
   Row,
   Card,
+  Button,
   CardImg,
   CardText,
   CardBody,
@@ -12,20 +13,24 @@ import {
   Container
  }
 from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 
 const Projects = (props) => {
   return (
   <Container>
-    <Row>
-      <p>
+    <Col>
         <h1 className="display-3">My Projects</h1>
-      </p>
-    </Row>
+        <p>Interested to know more? Contact me!</p>
+          <Link to="/Contact">
+            <Button outline color="secondary">Contact</Button>
+         </Link>
+        <p></p>
+    </Col>
 
     <Row>
-    <Col>
-      <Card>
+      <Col>
+        <Card>
         <CardBody>
           <CardTitle>Funny Cookie</CardTitle>
           <CardImg width="20%" src="./funnycookie.png" alt="" />
