@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -42,6 +42,13 @@ class App extends Component {
               <Contact
               />}
           />
+
+          <Footer />
+            <Route path="/Footer"
+            component={()=>
+              <Footer
+              />}
+            />
         </Router>
       </div>
     );

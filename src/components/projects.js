@@ -14,14 +14,15 @@ import {
  }
 from 'reactstrap';
 import { Link } from 'react-router-dom';
+import projects from '../images/Projectsico.png';
 
 
 const Projects = (props) => {
   return (
   <Container>
     <Col>
-        <h1 className="display-3">My Projects</h1>
-        <p>Interested to know more? Contact me!</p>
+        <h1 className="display-3"><img src={projects} alt=""/> My Projects</h1>
+        <p>Intrigued? Contact me!</p>
           <Link to="/Contact">
             <Button outline color="secondary">Contact</Button>
          </Link>

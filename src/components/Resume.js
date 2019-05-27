@@ -1,16 +1,17 @@
 import React from 'react';
 import '../stylesheets/App.css';
 import { Container, Row, Col, Button } from 'reactstrap';
-import resume from '../assets/resume.png'
 import { Link } from 'react-router-dom';
+import resumepic  from '../images/Resumeico.png';
+import resume  from '../images/resume.png'
 
 const Resume = () => {
   return (
     <Container id="jumbo">
       <Row>
         <Col>
-          <h1 className="display-3" id="about">My Resume </h1>
-            <h4>For published applications, go to <Link to="/Projects">
+          <h1 className="display-3" id="about"><img src={resumepic} alt=""/> My Resume </h1>
+            <h4>For my published applications, go to <Link to="/Projects">
              <Button outline color="secondary">Projects</Button>
             </Link></h4>
              <p className="lead"></p>

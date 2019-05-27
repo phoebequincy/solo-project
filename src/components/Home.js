@@ -3,7 +3,6 @@ import { Row, Col, Container, Button } from 'reactstrap';
 import '../stylesheets/Homestyle.css';
 import { Link } from 'react-router-dom';
 
-
 class Home extends Component {
 
     render() {
@@ -16,7 +15,7 @@ class Home extends Component {
                   software developer | technical evangelist
                 <p></p>
                   <div className="animated slideInLeft delay-2s">
-                    <em>I love building beautiful and useful applications that connect people, and sharing my enthusiasm for technology!</em>
+                    <em>I'm a writer of words and code, educator and joyful tech nerd!</em>
                   </div>
                   <p className="lead"></p>
                   <hr className="my-2" />
@@ -24,39 +23,39 @@ class Home extends Component {
 
               </Col>
             </Row>
+
             <Row className="iconbar">
               <Col xs="3">
-              <Link to="/About">
-                <Button className="about" color="link">
-                 <i className="fal fa-user-astronaut"></i>
-                </Button>
-              </Link>
+                <Link to="/About">
+                  <Button className="about" color="link">
+                   <i className="fal fa-user-astronaut"></i>
+                  </Button>
+                </Link>
               </Col>
 
               <Col xs="3">
-              <Link to="/Resume">
-                <Button className="resume" color="link">
-                 <i className="fas fa-file"></i>
-                </Button>
-              </Link>
+                <Link to="/Resume">
+                  <Button className="resume" color="link">
+                   <i className="fas fa-file"></i>
+                  </Button>
+                </Link>
               </Col>
 
               <Col xs="3">
-              <Link to="Projects">
-                <Button className="projects" color="link">
-                 <i className="fal fa-suitcase"></i>
-                </Button>
-              </Link>
+                <Link to="Projects">
+                  <Button className="projects" color="link">
+                   <i className="fal fa-suitcase"></i>
+                  </Button>
+                </Link>
               </Col>
 
               <Col xs="3">
-              <Link to="/Contact">
-                <Button className="contact" color="link">
-                 <i className="fas fa-comments-alt"></i>
-                </Button>
-              </Link>
+                <Link to="/Contact">
+                  <Button className="contact" color="link">
+                   <i className="fas fa-comments-alt"></i>
+                  </Button>
+                </Link>
               </Col>
-
             </Row>
           </Container>
         )
