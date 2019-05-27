@@ -1,4 +1,6 @@
 card {
-  font-family: Open-Sans
-
+  font-family: 'Open-Sans';
+}
+div.cards.container {
+  margin-bottom: 100px;
 }

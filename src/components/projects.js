@@ -19,7 +19,7 @@ import projects from '../assets/projectsico.png';
 
 const Projects = (props) => {
   return (
-  <Container>
+  <Container className="cards">
     <Col>
         <h1 className="display-3"><img src={projects} alt=""/> My Projects</h1>
         <p>Intrigued? Contact me!</p>
@@ -65,7 +65,6 @@ const Projects = (props) => {
         </CardBody>
       </Card>
     </Col>
-
       </Row>
     </Container>
   );

@@ -8,6 +8,7 @@ iconbar{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-decoration: none !important;
 }
 .about i{
   width: 70px;
@@ -41,6 +42,7 @@ iconbar{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-decoration: none !important;
 }
 .resume i{
   width: 70px;
