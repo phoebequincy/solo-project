@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Col, Button } from 'reactstrap';
 import '../stylesheets/App.css';
 import { Link } from 'react-router-dom';
-import profile  from '../images/AboutIco.png';
-import about from '../images/aboutpic.png';
+import profile from '../assets/AboutIco.png';
+import about from '../assets/aboutpic.png';
 
 const About = () => {
   return (
