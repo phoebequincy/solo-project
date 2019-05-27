@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Col } from 'reactstrap';
 import '../stylesheets/App.css';
 import Emoji from 'a11y-react-emoji';
-import contact from '../assets/Contactico.png';
+import contact from '../assets/contactico.png';
 
 const Contact = () => {
   return (

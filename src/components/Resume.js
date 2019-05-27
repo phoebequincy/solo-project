@@ -2,7 +2,7 @@ import React from 'react';
 import '../stylesheets/App.css';
 import { Container, Row, Col, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import resumeico from '../assets/Resumeico.png';
+import resumeico from '../assets/resumeico.png';
 import resume from '../assets/resume.png'
 
 const Resume = () => {

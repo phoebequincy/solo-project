@@ -14,7 +14,7 @@ import {
  }
 from 'reactstrap';
 import { Link } from 'react-router-dom';
-import projects from '../assets/Projectsico.png';
+import projects from '../assets/projectsico.png';
 
 
 const Projects = (props) => {
